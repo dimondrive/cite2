@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@700&display=swap');
+body{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+div,p,input,button,form,span,a,ul,li{
+    box-sizing: border-box;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    line-height: 1.6em;
+}
+
+
+.container{
+    width: 1171px;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgba(147,206,222,1);
+    background: -moz-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(78,192,254,1) 31%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(147,206,222,1)), color-stop(31%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(78,192,254,1) 31%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(78,192,254,1) 31%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(78,192,254,1) 31%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(147,206,222,1) 0%, rgba(78,192,254,1) 31%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#3790d9', GradientType=1 );
+
+    padding-top: 66px;
+    padding-bottom: 144px;
+    color: #fff;
+}
+.title{
+    width: 564px;
+    margin-top: 153px;
+}
+.intro{
+    width: 408px;
+    margin-top:47px;
+    margin-bottom: 47px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    display: inline-block;
+    background-color: orange;
+    padding: 22px 30px;
+    width: 221px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+.desktop{
+    margin-top: 70px;
+}
+
+
+
+
+
+
+.travel{
+    margin-top: 110px;
+    margin-bottom: 120px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
+    text-align: center;
+}
+.skill{
+    padding-top: 100px;
+}
+.travel-title{
+    text-align: center;
+}
+.skill-travel1{
+    background: url(../img/icon1.png) no-repeat top center;
+}
+.skill-travel2{
+    background: url(../img/icon2.png) no-repeat top center;
+}
+
+.skill-travel3{
+    background: url(../img/icon3.png) no-repeat top center;
+}
+
+
+
+
+
+.footer{
+    background-color: #164d7a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*RESPONCEBLE*/
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 993px;
+    }
+    
+    .desktop{
+        margin-right: 30px;
+    }
+  
+   
+}
+
+@media screen and (max-width:992px){
+    .container{
+        width: 720px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .offer{
+        width: 100%;
+        
+        
+    }
+    .intro{
+        width: auto;
+    }
+   
+    
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width: 540px;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .offer{
+        width: 100%;
+    }
+    .intro{
+        width: auto;
+    }
+  
+    
+}
+
+@media screen and (max-width:576px){
+    .container{
+        width: 90%;
+    }
+    .offer{
+        width: 100%;
+    }
+    .intro{
+        width: auto;
+    }
+    
+}
